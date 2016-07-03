@@ -1,0 +1,14 @@
+﻿   <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-12 col-xs-12 promotion" 
+            ng-repeat="promotion in viewModel.promotions">
+                    <div class="content">
+                    <img src="{{promotion.image}}" class="small-image">
+                    <div class="title" ng-click="viewModel.goSinglePage(promotion.id)">{{promotion.title}}</div>
+                    <p> {{ viewModel.truncateDescription(promotion.description)}} 
+                    <button type="button" ng-click="viewModel.goSinglePage(promotion.id)" >Details</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+  </div>                     

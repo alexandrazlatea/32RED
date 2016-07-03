@@ -1,0 +1,28 @@
+﻿<div class="col-md-offset-3 col-md-6">
+  <div class="box">
+    <header>
+      <h1>Log in</h1>
+    </header>
+    <section>
+      <form class="form-horizontal" role="form">
+        <div class="form-group">
+          <label for="inputEmail"  class="col-sm-3 control-label">Username</label>
+          <div class="col-sm-9">
+            <input type="text" class="form-control" data-ng-model="viewModel.username" id="username">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-3 col-sm-9">
+            <button type="button" ng-click="viewModel.loginUser()" >Log in</button>
+          </div>
+          <span class="error" ng-show="viewModel.showError"> Invalid User name</span>
+        </div>
+      </form>
+    </section>
+  <div class="col-sm-12 text-center" ng-show="viewModel.isBusy">
+            <i class=" fa fa-spinner fa-spin fa-5x"></i>
+            <h3>Loading...</h3>
+        </div>
+
+  </div>
+</div>

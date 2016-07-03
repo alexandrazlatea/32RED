@@ -1,0 +1,22 @@
+<div class="container" ng-controller="SinglePromotionController">
+  <div class="single-page">
+    <h1>{{viewModel.promotion.title}}</h1>
+    <img src="{{viewModel.promotion.image}}" class="big-image">
+    <p>{{viewModel.promotion.description}}</p>
+  </div>
+  <div ng-hide="viewModel.showPromotionErrorMessage" class="optin-form" >
+  	<div class="title-form">Opt in to this promotion</div>
+    <div class="inputForm" ng-show="viewModel.showForm">
+  	   <label class="labelUsername"> Username: </label>
+  	   <input type="text"  ng-model="viewModel.username">
+    </div>
+    <div class="inputForm" >
+      <label ng-show="viewModel.promotion.optionsList"  class="labelOption"> Option: </label>
+    <select   ng-show="viewModel.promotion.optionsList" ng-model="viewModel.promotion.option" ng-options="option for option in viewModel.promotion.optionsList">
+     </select> 
+   </div>
+    <button type="button"  ng-click="viewModel.optIn(viewModel.promotion.id)" >OptIn</button>
+  </div>
+  <div ng-show="viewModel.showPromotionErrorMessage" class="message">
+  		{{viewModel.message}}</div>	
+</div>

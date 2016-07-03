@@ -1,0 +1,59 @@
+<div ng-hide="isBusy">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            List of Tasks
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                <ul class="list-group">
+                    <li class="list-group-item">
+
+                        <input type="text" placeholder="Search..." ng-model="filter" class="bullet-input form-control">
+
+                    </li>
+                    <li class="list-group-item" ng-repeat="task in tasks| filter:filter ">
+                        <span>{{ task.title}}</span>
+                        <input type="hidden" ng-model="task.task_id" >
+                        <button  ng-click="removeTask(task.task_id, $index)" class="cursor fa fa-trash-o fa-lg  pull-right"></button>
+                        <button  data-toggle="modal" ng-click="editFunction(task.task_id,task.title)" data-target="#myModal" class="fa fa-edit fa-lg pull-right"></button>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <div class="form-group">
+                <button class="btn btn-primary btn-lg" ng-click="emptyFields()" data-toggle="modal" data-target="#myModal">
+                    Add task
+                </button>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title" id="myModalLabel">Add task</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <input type="hidden" data-ng-model="task.id" id="taskId">
+                                <p>Title : <input type="text" data-ng-model="task.title" id="taskTitle">
+                                <p>Status : <select  data-ng-model="task.status" id="taskStatus"  data-ng-options="type for type in ['active', 'done', 'archived']"></select></p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" ng-click="addTask()">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12 text-center" ng-show="isBusy">
+            <i class=" fa fa-spinner fa-spin fa-5x"></i>
+            <h3>Loading...</h3>
+        </div>
+

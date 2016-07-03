@@ -1,0 +1,1 @@
+[{"username":"user","optin":",3,5","notEligible":"2,3","blackList":true},{"username":"usertest2","optin":"","notEligible":"2,3","blackList":true},{"username":"usertest3","optin":"2:Team A,3:undefined,4:Poker,5:undefined","notEligible":"2,3"},{"username":"usertest4","optin":"4:Poker,3:undefined"},{"username":"usertest5","optin":"","notEligible":"2,3"}]

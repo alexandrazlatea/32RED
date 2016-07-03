@@ -1,0 +1,142 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #ffffff;
+}
+
+.navbar-inverse {
+    background-color: rgb(255,26,20);
+    border-color: transparent;
+}
+
+i {
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+.title {
+  font-family: PanameFy-Regular;
+  color: #333;
+  font-size:45px;
+}
+
+.header img {
+  height: 72px;
+}
+.small-image {
+  height: 189px;
+  float:left;
+  padding: 10px;
+}
+.row .content {
+      background: rgb(237, 237, 237);
+      min-height: 250px;
+}
+.promotion {
+  padding-bottom: 13px;
+  margin-top: 20px;
+}
+.single-page h1 {
+    color: #333;
+    font-family: PanameFy-Regular;
+    font-size: 43px;
+    margin-top: 22px;
+}
+
+p {
+  font-family: Texta-book;
+  font-size: 20px;
+}
+
+.big-image {
+    height: 284px;
+    float: right;
+    padding: 0 19px 0 19px;
+}
+.title-form {
+    font-family: PanameFy-Regular;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.box {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0 auto 60px;
+  padding: 30px;
+}
+.optin-form {
+    width: 80%;
+    background: rgb(237, 237, 237);
+    height: auto;
+    padding: 35px;
+}
+label {
+  float: left;
+  font-family: Texta-Book;
+  font-size: 17px;
+  padding-right: 9px;
+}
+.message {
+    color: rgb(255,26,26);
+    font-size: 19px;
+    font-family: Texta-Bold;
+}    
+button {
+    float: left;
+    color: #333;
+    background-color: rgb(255, 161, 0);
+    font-family: Texta-Bold;
+    font-size: 16px;
+    width: 76px;
+    border: 0 solid transparent;
+    margin-bottom: 20px;
+}
+
+.inputForm {
+  margin-bottom: 15px;
+}
+
+.col-md-offset-3 {
+    margin-top: 10%;
+}
+
+button:hover {
+  background-color: rgb(255, 186, 0);
+}
+
+  .box > section {
+    border-top: 1px solid #ccc;
+    display: inline-block;
+    padding: 20px 0 0;
+    position: relative;
+    width: 100%;
+  }
+
+h1 {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1.25;
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+
+input.ng-invalid {
+  border-color: red;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.row button {
+  float:right;
+  margin: 20px;
+}
+
+@media (max-width: 700px) {
+  .optin-form {
+    width: 100%;
+  }
+}

@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "title": "Promo test 1",
+        "image": "app/images/image.png",
+        "validTo": "2016-05-30",
+        "optionsList" : "Red, Black",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices lacus et iaculis maximus. Duis blandit lacinia dictum. Integer placerat molestie magna, sit amet imperdiet nulla bibendum non. Sed ultrices malesuada dapibus. Aenean aliquam efficitur convallis. Pellentesque imperdiet cursus risus efficitur volutpat. Sed sodales enim in aliquet accumsan. Morbi pellentesque, sapien non aliquet maximus, turpis odio pellentesque quam, id sollicitudin nibh tellus condimentum tellus. Cras in neque at ex faucibus euismod. Nullam cursus, erat suscipit ullamcorper commodo, mi urna gravida urna, eget aliquet nulla dolor id elit. Praesent sed tristique justo. Nulla ac mauris lectus. Sed ut cursus enim, in faucibus tellus. Duis ultricies viverra turpis, non vestibulum metus egestas in."
+    },
+    {
+        "id":2,
+        "title": "Promo test 2",
+        "image": "app/images/image.png",
+        "validTo": "2016-07-30",
+        "optionsList" : "Team A, Team B",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices lacus et iaculis maximus. Duis blandit lacinia dictum. Integer placerat molestie magna, sit amet imperdiet nulla bibendum non. Sed ultrices malesuada dapibus. Aenean aliquam efficitur convallis. Pellentesque imperdiet cursus risus efficitur volutpat. Sed sodales enim in aliquet accumsan. Morbi pellentesque, sapien non aliquet maximus, turpis odio pellentesque quam, id sollicitudin nibh tellus condimentum tellus. Cras in neque at ex faucibus euismod. Nullam cursus, erat suscipit ullamcorper commodo, mi urna gravida urna, eget aliquet nulla dolor id elit. Praesent sed tristique justo. Nulla ac mauris lectus. Sed ut cursus enim, in faucibus tellus. Duis ultricies viverra turpis, non vestibulum metus egestas in."
+    },
+    {  
+        "id":3,
+        "title": "Promo test 3",
+        "image": "app/images/image.png",
+        "validTo": "2016-07-30",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices lacus et iaculis maximus. Duis blandit lacinia dictum. Integer placerat molestie magna, sit amet imperdiet nulla bibendum non. Sed ultrices malesuada dapibus. Aenean aliquam efficitur convallis. Pellentesque imperdiet cursus risus efficitur volutpat. Sed sodales enim in aliquet accumsan. Morbi pellentesque, sapien non aliquet maximus, turpis odio pellentesque quam, id sollicitudin nibh tellus condimentum tellus. Cras in neque at ex faucibus euismod. Nullam cursus, erat suscipit ullamcorper commodo, mi urna gravida urna, eget aliquet nulla dolor id elit. Praesent sed tristique justo. Nulla ac mauris lectus. Sed ut cursus enim, in faucibus tellus. Duis ultricies viverra turpis, non vestibulum metus egestas in."
+    },
+    {
+        "id":4,
+        "title": "Promo test 4",
+        "image": "app/images/image.png",
+        "validTo": "2016-07-30",
+        "optionsList" : "Poker, BlackJack, Roulette",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices lacus et iaculis maximus. Duis blandit lacinia dictum. Integer placerat molestie magna, sit amet imperdiet nulla bibendum non. Sed ultrices malesuada dapibus. Aenean aliquam efficitur convallis. Pellentesque imperdiet cursus risus efficitur volutpat. Sed sodales enim in aliquet accumsan. Morbi pellentesque, sapien non aliquet maximus, turpis odio pellentesque quam, id sollicitudin nibh tellus condimentum tellus. Cras in neque at ex faucibus euismod. Nullam cursus, erat suscipit ullamcorper commodo, mi urna gravida urna, eget aliquet nulla dolor id elit. Praesent sed tristique justo. Nulla ac mauris lectus. Sed ut cursus enim, in faucibus tellus. Duis ultricies viverra turpis, non vestibulum metus egestas in."
+    },
+    {
+        "id":5,
+        "title": "Promo test 5",
+        "image": "app/images/image.png",
+        "validTo": "2016-07-30",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices lacus et iaculis maximus. Duis blandit lacinia dictum. Integer placerat molestie magna, sit amet imperdiet nulla bibendum non. Sed ultrices malesuada dapibus. Aenean aliquam efficitur convallis. Pellentesque imperdiet cursus risus efficitur volutpat. Sed sodales enim in aliquet accumsan. Morbi pellentesque, sapien non aliquet maximus, turpis odio pellentesque quam, id sollicitudin nibh tellus condimentum tellus. Cras in neque at ex faucibus euismod. Nullam cursus, erat suscipit ullamcorper commodo, mi urna gravida urna, eget aliquet nulla dolor id elit. Praesent sed tristique justo. Nulla ac mauris lectus. Sed ut cursus enim, in faucibus tellus. Duis ultricies viverra turpis, non vestibulum metus egestas in."
+    }
+]    
