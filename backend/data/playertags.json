@@ -1,6 +1,6 @@
 [{
 	"username":"user",
-	"optin":"",
+	"optin":"1",
 	"notEligible":"2,3",
 	"blackList":true
   },
